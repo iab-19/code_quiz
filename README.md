@@ -3,7 +3,7 @@ Repository for Challenge 4: Web APIs Code Quiz
   
 ## User Story
 
-AS A coding boot camp studen  
+AS A coding boot camp student  
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores  
 SO THAT I can guage my progress compared to my peers  
   
