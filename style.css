@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+nav {
+    background-color: rgb(172, 170, 168);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+nav ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction:initial;
+
+ }
+
+left {
+    float: left;
+}
+
+right {
+    float: right;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+ }
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.start-button {
+    align-self: right;
+    border-radius: 2px;
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    border: double black;
+    font-size: 20px;
+}
