@@ -16,6 +16,7 @@ body {
 
 nav {
     background-color: rgb(172, 170, 168);
+    width: 95vw;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -41,7 +42,7 @@ right {
     float: right;
 }
 
-#main-area {
+.main-area {
     width: 80vw;
     max-width: 80%;
     background-color: rgb(228, 174, 131);
@@ -67,7 +68,18 @@ h1 {
     display: flex;
     justify-content: center;
 }
-#start-button {
+/* #start-button {
+    align-self: right;
+    border-radius: 2px;
+    background-color: grey;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    border: double black;
+    font-size: 20px;
+} */
+
+button {
     align-self: right;
     border-radius: 2px;
     background-color: grey;
@@ -78,7 +90,26 @@ h1 {
     font-size: 20px;
 }
 
-#start-button:hover {
+button:hover {
     color: orangered;
     /* border: none; */
+}
+
+.answer-button {
+    width: 180px;
+    margin: 3px;
+}
+
+
+
+#question1 {
+    /* display: none; */
+}
+
+#long {
+    width: max-content;
+}
+
+.answer-button {
+    width: auto;
 }

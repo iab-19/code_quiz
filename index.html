@@ -10,7 +10,8 @@
         <nav>
             <section class="left">
                 <ul>
-                    <li id="countdown">Time: 0</li>
+                    <li>Time: </li>
+                    <li id="countdown"> 0</li>
                 </ul>
             </section>
             <section class="right">
@@ -20,7 +21,7 @@
             </section>
         </nav>
         <br>
-        <section id="main-area">
+        <section class="main-area">
             <h1>JavaScript Quiz</h1>
             <p><strong>Welcome to the JavaScript Quiz!</strong><br>
             Here are some rules:<br>
@@ -32,7 +33,57 @@
             <div class="button">
                 <button id="start-button">Begin Quiz</button>
             </div>
-        </section>
+        </section><br>
+        <section class="main-area" id="question1">
+            <h3>1. Inside which HTML element do we put the JavaScript?</h3>
+            <section class="row1">
+                <button class="answer-button">scrtipt</button>
+                <button class="answer-button">js</button>
+            </section>
+            <section class="row2">
+                <button class="answer-button">scripting</button>
+                <button class="answer-button">javascript</button>
+            </section>
+        </section><br>
+        <section class="main-area" id="question2">
+            <h3>2. What is the correct JavaScript syntax to change the content of the HTML element below?</h3>
+                <button class="answer-button" id="long">document.getElementById("demo").innerHTML = "Hello World!";</button>
+                <button class="answer-button">#demo.innerHTML = "Hello World!";</button>
+                <button class="answer-button">scripting</button>
+                <button class="answer-button">javascript</button>
+        </section><br>
+        <section class="main-area" id="question3">
+            <h3>3. Where is the correct place to insert a JavaScript?</h3>
+            <section class="row1">
+                <button class="answer-button">The body section</button>
+                <button class="answer-button">Both the body section and the head section are correct.</button>
+            </section>
+            <section class="row2">
+                <button class="answer-button">The head section</button>
+            </section>
+        </section><br>
+        <section class="main-area" id="question4">
+            <h3>4. </h3>
+            <section class="row1">
+                <button class="answer-button">1</button>
+                <button class="answer-button">2</button>
+            </section>
+            <section class="row2">
+                <button class="answer-button">3</button>
+                <button class="answer-button">4</button>
+            </section>
+        </section><br>
+        <section class="main-area" id="question5">
+            <h3>5. </h3>
+            <section class="row1">
+                <button class="answer-button">1</button>
+                <button class="answer-button">2</button>
+            </section>
+            <section class="row2">
+                <button class="answer-button">3</button>
+                <button class="answer-button">4</button>
+            </section>
+        </section><br>
         <script src="script.js"></script>
     </body>
 </html>
