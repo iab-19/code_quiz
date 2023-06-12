@@ -10,7 +10,7 @@
         <nav>
             <section class="left">
                 <ul>
-                    <li>Time</li>
+                    <li id="countdown">Time: 0</li>
                 </ul>
             </section>
             <section class="right">
@@ -19,15 +19,20 @@
                 </ul>
             </section>
         </nav>
-        <h1>JavaScript Quiz</h1>
-        <p>Welcome to the JavaScript Quiz! Here are some rules:<br>
-        1. Select the correct answer to proceed to the next question.<br>
-        2. If the answer is wrong, your time will be dedeucted by 10 seconds.<br>
-        3. Your score is calculated by the time remaining when the quiz is finished.
-        </p>
-        <div class="button">
-            <button class="start-button">Start Quiz</button>
-        </div>
-        <script></script>
+        <br>
+        <section id="main-area">
+            <h1>JavaScript Quiz</h1>
+            <p><strong>Welcome to the JavaScript Quiz!</strong><br>
+            Here are some rules:<br>
+            1. Select the correct answer to proceed to the next question.<br>
+            2. If the answer is wrong, your time will be dedeucted by 10 seconds.<br>
+            3. Your score is calculated by the time remaining when the quiz is finished.
+            </p>
+            <br>
+            <div class="button">
+                <button id="start-button">Begin Quiz</button>
+            </div>
+        </section>
+        <script src="script.js"></script>
     </body>
 </html>
