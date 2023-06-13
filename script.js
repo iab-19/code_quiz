@@ -58,12 +58,12 @@ beginEl.addEventListener('click', countdown);
 
 // Add event listener to correct answer of question 1 and clear screen
 // and display question 2.
-q1answer.addEventListener('click', function);
+// q1answer.addEventListener('click', );
 
-q2answer.addEventListener('click', );
+// q2answer.addEventListener('click', );
 
-q3answer.addEventListener('click', );
+// q3answer.addEventListener('click', );
 
-q4answer.addEventListener('click', );
+// q4answer.addEventListener('click', );
 
-q5answer.addEventListener('click', );
+// q5answer.addEventListener('click', );
